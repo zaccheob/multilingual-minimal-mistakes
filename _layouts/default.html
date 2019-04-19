@@ -1,6 +1,6 @@
 ---
 ---
-
+{% include lang %}
 <!doctype html>
 <!--
   Minimal Mistakes Jekyll Theme 4.16.0 by Michael Rose
@@ -33,6 +33,7 @@
       <footer>
         {% include footer/custom.html %}
         {% include_cached footer.html %}
+        DEBUG: DETECTED LANGUAGE: {{lang}}
       </footer>
     </div>
 
